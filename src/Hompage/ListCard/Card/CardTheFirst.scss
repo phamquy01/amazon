@@ -1,0 +1,30 @@
+.card {
+  max-width: 312px;
+  max-height: 420px;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.card-a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #007185;
+  &:hover {
+    text-decoration: underline;
+    color: #c7511f;
+  }
+}
+.cardforimg {
+  width: 272px;
+  height: 300px;
+}
+.cardforimglist {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2px;
+}
+.cardforitem {
+  width: 135px;
+}
+.cardimgitem {
+  height: 129px;
+}

@@ -1,0 +1,16 @@
+.footer-container {
+  width: 100%;
+  padding: 30px 200px;
+  background-color: #232f3e;
+  color: #fff;
+  font-size: 20px;
+}
+.post {
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
+}

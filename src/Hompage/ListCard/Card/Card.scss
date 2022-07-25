@@ -1,0 +1,15 @@
+.card {
+  max-width: 312px;
+  max-height: 420px;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.card-a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #007185;
+  &:hover {
+    text-decoration: underline;
+    color: #c7511f;
+  }
+}

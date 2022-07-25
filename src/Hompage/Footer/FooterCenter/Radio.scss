@@ -1,0 +1,24 @@
+.text-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  & p {
+    margin-right: 10px;
+  }
+  & a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 12px;
+    &:hover {
+      text-decoration: underline;
+      color: #c7511f;
+    }
+  }
+}
+hr {
+  background-color: #ccc;
+  width: 90%;
+  left: 15px;
+  position: relative;
+}

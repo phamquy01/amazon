@@ -1,0 +1,28 @@
+.footer-bottom {
+  width: 100%;
+  padding: 30px 200px;
+  background-color: #131a22;
+  color: #fff;
+}
+.footer-bottom-text {
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+  & span {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ccc;
+  }
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & > p {
+    padding: 40px 10px 0;
+    font-size: 12px;
+  }
+}

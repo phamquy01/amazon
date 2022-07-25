@@ -1,0 +1,141 @@
+// .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+//   padding: 6.5px 14px;
+// }
+.logoamazon {
+  width: 98px;
+  height: 35px;
+  padding: 6px;
+  margin: 7px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.locate-group {
+  display: flex;
+  align-items: flex-end;
+  height: 35px;
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 6px 4px;
+  cursor: pointer;
+}
+.locate {
+  display: flex;
+  flex-direction: column;
+}
+.country-language {
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 9px 4px;
+  color: #ccc;
+  cursor: pointer;
+  width: 45px;
+}
+.country-language:hover .country-language-list {
+  display: block;
+}
+.country-language-list {
+  & span {
+    font-size: 13px;
+  }
+
+  width: 240px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  display: none;
+  position: relative;
+  z-index: 1000;
+  margin: 8px 0;
+}
+
+.country-language .country-language-item {
+  padding: 0 20px;
+  height: 342px;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 999;
+  position: absolute;
+}
+.country-language .country-language-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 24px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  transform: translateY(-100%);
+}
+.text-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  & p {
+    margin-right: 10px;
+  }
+}
+hr {
+  background-color: #ccc;
+  width: 90%;
+  left: 15px;
+  position: relative;
+}
+.sign-in,
+.order {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 35px;
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 6px 4px;
+  cursor: pointer;
+}
+.signin-hello,
+.order-top {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ccc;
+}
+.signin-text,
+.order-bottom {
+  height: 15px;
+  display: flex;
+  align-items: center;
+  & p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.cart {
+  position: relative;
+  width: 63px;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  height: 35px;
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 6px 12px 6px 6px;
+  cursor: pointer;
+
+  & img {
+    width: 40px;
+    margin-top: 2px;
+    height: 30px;
+  }
+}
+.cart-number {
+  position: absolute;
+  margin-left: 17px;
+  top: 0;
+  color: orange;
+  font-weight: 700;
+  font-size: 20px;
+}
+.cart-text {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
